@@ -1,0 +1,34 @@
+{
+    "characters":[
+        {
+            "name":"Yoshi",
+            "description":"dinosaur",
+            "appearances":20
+        },
+        {
+            "name":"Peach",
+            "description":"princess",
+            "appearances":26
+        },
+        {
+            "name":"Mario",
+            "description":"plumber",
+            "appearances":28
+        },
+        {
+            "name":"Samus Aran",
+            "description":"bounty hunter",
+            "appearances":15
+        },
+        {
+            "name":"Link",
+            "description":"pottery smasher",
+            "appearances":21
+        },
+        {
+            "name":"Kirby",
+            "description":"hungry",
+            "appearances":16
+        }
+    ]
+}

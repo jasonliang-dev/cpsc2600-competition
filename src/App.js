@@ -8,7 +8,22 @@ class App extends React.Component {
   }
 
   render() {
-    return <h1>Hello World</h1>;
+    return (
+      <div>
+        <h1>Characters</h1>
+
+        <ul>
+          <li>
+            <a href="/characters">List all characters</a>
+          </li>
+          <li>
+            <a href="/characters?sort=true">
+              List all characters in order of number of appearances
+            </a>
+          </li>
+        </ul>
+      </div>
+    );
   }
 }
 
