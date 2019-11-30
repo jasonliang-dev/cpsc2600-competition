@@ -7,17 +7,15 @@ const sort = require('./sortingHat.js');
 
 
 exports.studentValidator = [
-    check("name", "Your student's name is empty")
+    check("name")
     .trim()
-    .not().empty()
-    .escape(),
-    check("name", "Student from wrong house")
+    .not().empty().withMessage("Student Name empty")
     .custom(value => sort(value).then(house => {
         if (house === "Griffindor"){
             return true;
         }
         Promise.reject();
-    }))
+    })).withMessage("Student from wrong house")
     
     ]
     
